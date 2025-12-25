@@ -8,6 +8,12 @@ A comprehensive TypeScript project demonstrating practical implementation of Gen
 
 👉 **Try it yourself**: Run `npm run raglcel` to start the interactive chat interface!
 
+### 🌐 Live Deployment
+
+**Portfolio Website**: [https://fullstack-manish.netlify.app/](https://fullstack-manish.netlify.app/)
+
+The portfolio website that powers this RAG system is live and deployed on Netlify. The AI assistant has been trained on all content from this deployed portfolio, ensuring that recruiters get accurate, up-to-date information about my professional experience, skills, and projects.
+
 ## 🎯 Project Overview
 
 This repository showcases hands-on learning and implementation of modern AI/ML concepts including:
@@ -22,6 +28,10 @@ This repository showcases hands-on learning and implementation of modern AI/ML c
 ### **Portfolio-Powered AI Assistant for Recruiters**
 
 As a practical application of the concepts learned, I built a **production-ready RAG (Retrieval-Augmented Generation) system** trained on my personal portfolio website. This interactive AI assistant allows recruiters and hiring managers to ask questions about my professional experience, skills, projects, and background.
+
+**🌐 Live Portfolio**: [https://fullstack-manish.netlify.app/](https://fullstack-manish.netlify.app/)
+
+The RAG system is trained on the content from my deployed portfolio website, ensuring all responses are based on my actual, up-to-date professional information.
 
 **Key Features:**
 - 🤖 **Interactive Chat Interface**: Terminal-based chat system where recruiters can ask questions about my experience
@@ -132,8 +142,13 @@ src/
 
 ## 🛠️ Setup & Installation
 
+### 🌐 View Live Portfolio
+
+Before setting up locally, you can view the live portfolio that powers this RAG system:
+- **Portfolio Website**: [https://fullstack-manish.netlify.app/](https://fullstack-manish.netlify.app/)
+
 ### Prerequisites
-- Node.js >= 14.0.0
+- Node.js >= 20.0.0
 - npm >= 6.0.0
 - TypeScript 5.9.3+
 
