@@ -10,17 +10,10 @@ async function gemini() {
         template: "Who created {language} and what is it?",
         inputVariables: ["language"],
     });
-    const model = new ChatGoogleGenerativeAI({
-        model: "gemini-2.5-flash",
-        apiKey: process.env.GOOGLE_API_KEY,
-
-    });
-    const outputParser = new StringOutputParser();
-    const chain = promptTemplate.pipe(model).pipe(outputParser);
-    const answer = await chain.invoke({
+    const formattedPrompt = await promptTemplate.format({
         language: 'Node.js',
     });
-    console.log('answer --> ', answer);
+    console.log('formattedPrompt --> ', formattedPrompt);
 }
 
 gemini();

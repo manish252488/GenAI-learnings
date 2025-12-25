@@ -23,8 +23,9 @@ const lcelComponent = async () => {
     const model = new ChatGoogleGenerativeAI({
         model: "gemini-2.5-flash",
         apiKey: process.env.GOOGLE_API_KEY,
-        temperature: 0, // lower the temperature more predictable the output [0.0 - 1.0]
-        topP: 0.5 // higher the topP more random the output [0.0 - 1.0]
+        // temperature: 0, // lower the temperature more predictable the output [0.0 - 1.0]
+        // topP: 0.5, // higher the topP more random the output [0.0 - 1.0]
+        // maxOutputTokens: 100
     });
     const formattedPrompt = await lec.format({
         years: 20,

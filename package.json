@@ -23,7 +23,13 @@
     "dev": "ts-node --esm ./src/app.ts",
     "llmchain": "ts-node --esm ./src/basicPromptTemplates.ts",
     "lcelChains": "ts-node --esm ./src/LcelChains.ts",
-    "llmparameters": "ts-node --esm ./src/llmparameters.ts"
+    "llmparameters": "ts-node --esm ./src/llmparameters.ts",
+    "imageGenration": "ts-node --esm ./src/imageGenration.ts",
+    "openAiVectorEmbedding": "ts-node --esm ./src/rag/openai/openAiVectorEmbedding.ts",
+    "geminiVectorEmbedding": "ts-node --esm ./src/rag/gemini/vectorEmbedding.ts",
+    "vectorization": "ts-node --esm ./src/rag/vectorization/vector.ts",
+    "retriever": "ts-node --esm ./src/rag/retriever/retrive.ts",
+    "raglcel": "ts-node --esm ./src/rag/augmentation/raglcel.ts"
   },
   "devDependencies": {
     "@types/cli-progress": "^3.11.6",
